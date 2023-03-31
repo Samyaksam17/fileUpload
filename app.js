@@ -3,8 +3,6 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const expressValidator = require("express-validator");
 const session = require("express-session");
-const mongoose = require("mongoose");
-const formidable = require("formidable");
 const multer = require("multer");
 
 // initialize express

@@ -26,7 +26,6 @@ module.exports.fileUpload = (req, res) => {
 // Streaming
 module.exports.fileStream = (req, res) => {
   const filename = req.params.filename;
-  //   const filePath = path.join(__dirname, "videos", filename);
   const filePath = `uploadedVideos/${filename}`;
   const stat = fs.statSync(filePath);
   const fileSize = stat.size;
