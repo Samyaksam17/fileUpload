@@ -58,6 +58,6 @@ module.exports.fileStream = (req, res) => {
 module.exports.fileDownload = (req, res) => {
   const filename = req.params.filename;
   const path = `uploadedVideos/${filename}`;
-  console.log(filename + " downloaded sucessfully");
+  console.log( filename + " downloaded Sucessfully");
   res.download(path);
 };
