@@ -28,6 +28,5 @@ POSTMAN ROUTES -
 
 POST - http://localhost:3001/file/upload - in form-data make a field name "video" with type "file"
 
-GET - http://localhost:3001/video/fc0446ab1e0c78031f0c4cd250725749?range=bytes=0-9 | | fileName range
-
+GET - http://localhost:3001/file/stream/a.mp4?range=bytes=0-9 | | fileName range
 
